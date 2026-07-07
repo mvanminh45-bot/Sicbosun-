@@ -645,7 +645,7 @@ app.get("/api/sicbo/sunwin", async () => {
     
     if (!last_result || !current_prediction) {
         return {
-            "id": "@tiendataox",
+            "id": "@vanminh2603",
             "phien": null,
             "xuc_xac1": null,
             "xuc_xac2": null,
@@ -661,7 +661,7 @@ app.get("/api/sicbo/sunwin", async () => {
 
     // 🚨 ĐỊNH DẠNG OUTPUT THEO YÊU CẦU CỦA BẠN (TOÀN BỘ CHỮ THƯỜNG)
     return {
-        "id": "@tiendadtaox",
+        "id": "@vanminh2603",
         "phien": last_result.session,
         "xuc_xac1": last_result.dice[0],
         "xuc_xac2": last_result.dice[1],
