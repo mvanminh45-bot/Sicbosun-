@@ -1,0 +1,19 @@
+{
+  "name": "sicbosun-api",
+  "version": "1.0.0",
+  "description": "Sicbo Predictor API",
+  "type": "module",
+  "main": "sicsun.js",
+  "scripts": {
+    "start": "node sicsun.js",
+    "dev": "node --watch sicsun.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "fastify": "^5.6.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
